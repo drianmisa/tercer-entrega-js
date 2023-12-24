@@ -6,6 +6,13 @@ html {
     box-sizing: inherit;
     margin: 0;
   }
+  body{
+    font-family:Arial, Helvetica, sans-serif
+  }
+ h1{
+    font-family: Rubik Doodle Shadow;
+ }
+
   
   .wrap {
     max-width: 1250px;
@@ -68,8 +75,34 @@ html {
 
 footer{
     background-color: red;
-    height: 80px;
+    height: 60px;
     .ftr{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 100%;
+        color: #fff;
+        font-weight: bold;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
 
+    }
+}
+.form-inicio{
+    display: block;
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"]{
+        color: #000;
+        outline: none;
+        border: solid 1px black;
+        padding: 20px;
+        border-radius: 10px;
+        &::placeholder{
+            color: #000;
+        }
     }
 }
