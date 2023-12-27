@@ -252,3 +252,4 @@ function cerrar(){
 }
 let botonInicio = document.querySelector("#btn-inicio");
 botonInicio.addEventListener('click', iniciarPrograma);
+ 
